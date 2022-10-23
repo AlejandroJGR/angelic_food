@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Angelic Food</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <!--Header-->
+    <header class="p-3 color_gold text-white">
+      <nav class="navbar navbar-expand-xl header-media-center" aria-label="Navbar Header">
+        <div class="container-fluid">
+          <a class="navbar-brand me-4 text-white" href="/index.html">Angelic Food</a>
+          <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#NavbarHeader" aria-controls="NavbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+    
+          <div class="navbar-collapse collapse" id="NavbarHeader">
+            <ul class="navbar-nav me-auto mb-2 mb-sm-0">
+              <li class="nav-item">
+                <a class="nav-link active text-white" 
+                   aria-current="page" href="/index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="/orders.html">Order</a>
+              </li>
+              <li>
+                <a href="#" class="nav-link  text-white">Work With Us</a>
+              </li>
+              <li><a href="#" class="nav-link text-white">About Us</a></li>
+            </ul>
+            <form role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            </form>
+          </div>
+            <div class="text-end">
+              <button type="button" class="btn btn-outline-light me-2 ms-2 button-media-margin">
+                Login
+              </button>
+              <button type="button" class="btn btn-warning button-media-margin">Sign-up</button>
+            </div>
+        </div>
+      </nav>
+    </header>
+    <!--End Header-->
+    <!--main body-->
+    <section>
+      <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="0"
+            class=""
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+            class=""
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#myCarousel"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+            class="active"
+            aria-current="true"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <svg
+              class="bd-placeholder-img carousel-img1"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+            <img src="/images/carousel-image1-lg.jpg" alt="">
+              <rect width="100%" height="100%" fill="#777"></rect>
+            </svg>
+
+            <div class="container">
+              <div class="carousel-caption text-start">
+                <h1>Best Dishes</h1>
+                <p>
+                  The best food you will ever taste.
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Order Something!</a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <svg
+              class="bd-placeholder-img carousel-img2"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+            <img src="/images/carousel-image2-lg.jpg" alt="">
+              <rect width="100%" height="100%" fill="#777"></rect>
+            </svg>
+
+            <div class="container">
+              <div class="carousel-caption">
+                <h1>Beautiful Work</h1>
+                <p>
+                  The plates and food are so pretty you won't want to eat it, but then... You won't stop.
+                </p>
+                <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item active">
+            <svg
+              class="bd-placeholder-img carousel-img3"
+              width="100%"
+              height="100%"
+              xmlns="http://www.w3.org/2000/svg"
+              aria-hidden="true"
+              preserveAspectRatio="xMidYMid slice"
+              focusable="false"
+            >
+            <img src="/images/carousel-image3-lg.jpg" alt="">
+              <rect width="100%" height="100%" fill="#777"></rect>
+            </svg>
+
+            <div class="container">
+              <div class="carousel-caption text-end">
+                <h1>The Best Chefs, for you</h1>
+                <p>
+                  All our chefs love what they're doing, so you know everything will be just the best!
+                </p>
+                <p>
+                  <a class="btn btn-lg btn-primary" href="#">Browse gallery</a>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#myCarousel"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div class="container marketing">
+        <!-- Three columns of text below the carousel -->
+        <div class="row">
+          <div class="col-lg-4">
+            <svg 
+              xmlns="http://www.w3.org/2000/svg" 
+              width="140" height="140" fill="currentColor"
+              viewBox="0 0 576 512"
+              role="img"
+              aria-label="First Feature Icon"
+              focusable="false"><!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                <title>Quality Icon</title>
+                <path d="M80 144C80 108.7 108.7 80 144 80C179.3 80 208 108.7 208 144C208 179.3 179.3 208 144 208C108.7 208 80 179.3 80 144zM284.4 176C269.9 240.1 212.5 288 144 288C64.47 288 0 223.5 0 144C0 64.47 64.47 0 144 0C212.5 0 269.9 47.87 284.4 112H356.2C365 102.2 377.8 96 392 96H496C522.5 96 544 117.5 544 144C544 170.5 522.5 192 496 192H392C377.8 192 365 185.8 356.2 176H284.4zM144 48C90.98 48 48 90.98 48 144C48 197 90.98 240 144 240C197 240 240 197 240 144C240 90.98 197 48 144 48zM424 264V272H520C533.3 272 544 282.7 544 296C544 309.3 533.3 320 520 320H280C266.7 320 256 309.3 256 296C256 282.7 266.7 272 280 272H376V264C376 250.7 386.7 240 400 240C413.3 240 424 250.7 424 264zM288 464V352H512V464C512 490.5 490.5 512 464 512H336C309.5 512 288 490.5 288 464zM176 320C202.5 320 224 341.5 224 368C224 394.5 202.5 416 176 416H160C160 433.7 145.7 448 128 448H64C46.33 448 32 433.7 32 416V336C32 327.2 39.16 320 48 320H176zM192 368C192 359.2 184.8 352 176 352H160V384H176C184.8 384 192 376.8 192 368zM200 464C213.3 464 224 474.7 224 488C224 501.3 213.3 512 200 512H24C10.75 512 0 501.3 0 488C0 474.7 10.75 464 24 464H200z"/>
+            </svg>
+
+            <h2 class="fw-normal">Quality</h2>
+            <p>
+              Our talented chefs work very hard to give you the best experience with each bite
+            </p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <svg 
+              xmlns="http://www.w3.org/2000/svg" 
+              width="140" height="140" fill="currentColor" 
+              class="bi bi-emoji-heart-eyes" viewBox="0 0 16 16"
+              role="img"
+              aria-label="Second Feature Icon"
+              focusable="false">
+                <title>Heart Eyes Icon</title>
+                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                <path d="M11.315 10.014a.5.5 0 0 1 .548.736A4.498 4.498 0 0 1 7.965 13a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .548-.736h.005l.017.005.067.015.252.055c.215.046.515.108.857.169.693.124 1.522.242 2.152.242.63 0 1.46-.118 2.152-.242a26.58 26.58 0 0 0 1.109-.224l.067-.015.017-.004.005-.002zM4.756 4.566c.763-1.424 4.02-.12.952 3.434-4.496-1.596-2.35-4.298-.952-3.434zm6.488 0c1.398-.864 3.544 1.838-.952 3.434-3.067-3.554.19-4.858.952-3.434z"/>
+            </svg>
+
+            <h2 class="fw-normal">Tastiness</h2>
+            <p>
+              We asure you, you're gonna love all the dishes, and try them all
+            </p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+          </div>
+          <!-- /.col-lg-4 -->
+          <div class="col-lg-4">
+            <svg 
+              xmlns="http://www.w3.org/2000/svg" 
+              width="140" height="140" 
+              fill="currentColor" 
+              class="bi bi-arrow-through-heart bd-placeholder-img" viewBox="0 0 16 16"
+              role="img"
+              aria-label="Third Feature Icon"
+              focusable="false">
+                <title>Heart Icon</title>
+                <path fill-rule="evenodd" d="M2.854 15.854A.5.5 0 0 1 2 15.5V14H.5a.5.5 0 0 1-.354-.854l1.5-1.5A.5.5 0 0 1 2 11.5h1.793l.53-.53c-.771-.802-1.328-1.58-1.704-2.32-.798-1.575-.775-2.996-.213-4.092C3.426 2.565 6.18 1.809 8 3.233c1.25-.98 2.944-.928 4.212-.152L13.292 2 12.147.854A.5.5 0 0 1 12.5 0h3a.5.5 0 0 1 .5.5v3a.5.5 0 0 1-.854.354L14 2.707l-1.006 1.006c.236.248.44.531.6.845.562 1.096.585 2.517-.213 4.092-.793 1.563-2.395 3.288-5.105 5.08L8 13.912l-.276-.182a21.86 21.86 0 0 1-2.685-2.062l-.539.54V14a.5.5 0 0 1-.146.354l-1.5 1.5Zm2.893-4.894A20.419 20.419 0 0 0 8 12.71c2.456-1.666 3.827-3.207 4.489-4.512.679-1.34.607-2.42.215-3.185-.817-1.595-3.087-2.054-4.346-.761L8 4.62l-.358-.368c-1.259-1.293-3.53-.834-4.346.761-.392.766-.464 1.845.215 3.185.323.636.815 1.33 1.519 2.065l1.866-1.867a.5.5 0 1 1 .708.708L5.747 10.96Z"/>
+            </svg>
+            <h2 class="fw-normal">Love</h2>
+            <p>
+              You can suggest a recipe or ask for a dish, and we'll make as if it was homemade
+            </p>
+            <p><a class="btn btn-secondary" href="#">View details »</a></p>
+          </div>
+          <!-- /.col-lg-4 -->
+        </div>
+        <!-- /.row -->
+
+        <!-- START THE FEATURETTES -->
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Quality ingredients, best recipes
+              <span class="text-muted">It'll blow your mind.</span>
+            </h2>
+            <p class="lead">
+              Whatever you order, you'll want more. Just the best ingredients and every dish is made by professionals with years of experience!
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="/images/hero-img1.jpg"
+              alt="First Feature Image"
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              title="First Feature Image"
+            />
+          </div>
+        </div>
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+          <div class="col-md-7 order-md-2">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Oh yeah, it's that good.
+              <span class="text-muted">See for yourself.</span>
+            </h2>
+            <p class="lead">
+              You will never want to cook again! Unless of course... You follow our recipes! Even the suggested recipes are perfected by our team, 
+              so you can have a 5 stars meal even by yourself!
+            </p>
+          </div>
+          <div class="col-md-5 order-md-1">
+            <img
+              src="/images/hero-img2.jpg"
+              alt="First Feature Image"
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              title="First Feature Image"
+            />
+          </div>
+        </div>
+        <hr class="featurette-divider" />
+        <div class="row featurette">
+          <div class="col-md-7">
+            <h2 class="featurette-heading fw-normal lh-1">
+              Each and every dish in here is<span class="text-muted">special</span>
+            </h2>
+            <p class="lead">
+              We believe that even the simplest recipe can be special with the right talent! That's why we made sure to only have the best of the best
+            </p>
+          </div>
+          <div class="col-md-5">
+            <img
+              src="/images/hero-img3.jpg"
+              alt="First Feature Image"
+              class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto"
+              title="First Feature Image"
+            />
+          </div>
+        </div>
+        <!-- /END THE FEATURETTES -->
+      </div>
+    </section>
+    <!--End section carousel and features-->
+    <div class="container py-3">
+      <div class="pricing-header p-3 pb-md-4 mx-auto text-center">
+        <h1 class="display-4 fw-normal mb-3">Pricing</h1>
+        <p class="fs-5 text-muted">Sadly... We can't offer all this for free, but worry not, 
+          we are going to make sure that you get everything you wish and more, for a fair price!</p>
+      </div>
+      <section class="m-sm-5">
+        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+          <div class="col">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="/images/card-img1.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask"></div>
+                </a>
+              </div>
+              <div class="card-header">Free</div>
+              <div class="card-body">
+                <h5 class="card-title">Recipes</h5>
+                <p class="card-text">
+                  Here you get access to our recipes! Sadly, not all
+                </p>
+            
+                <button type="button" class="btn btn-primary">Try It</button>
+              </div>
+              <div class="card-footer">Free</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="/images/card-img2.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask"></div>
+                </a>
+              </div>
+              <div class="card-header">5 Stars</div>
+              <div class="card-body">
+                <h5 class="card-title">Everything!</h5>
+                <p class="card-text">
+                  You get access to everything we can offer! Recipes and Dishes!
+                </p>
+            
+                <button type="button" class="btn btn-primary">Try It</button>
+              </div>
+              <div class="card-footer">$14.99</div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <div class="bg-image hover-overlay ripple" data-mdb-ripple-color="light">
+                <img src="/images/card-img3.jpg" class="img-fluid" />
+                <a href="#!">
+                  <div class="mask"></div>
+                </a>
+              </div>
+              <div class="card-header">3 Stars</div>
+              <div class="card-body">
+                <h5 class="card-title">Recipes and Dishes</h5>
+                <p class="card-text">
+                  Here we can offer almost every dish and recipe we have, sadly, not everything!
+                </p>
+            
+                <button type="button" class="btn btn-primary">Try It</button>
+              </div>
+              <div class="card-footer">$9.99</div>
+            </div>
+        </div>    
+      </section>
+    </div>
+    <h2 class="display-6 text-center mb-4">Compare plans</h2>
+    <div class="table-responsive">
+      <table class="table text-center">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Free</th>
+            <th>3 Stars</th>
+            <th>5 Stars</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row" class="text-start">Recipes</th>
+            <td><i class="fa-solid fa-circle-check"></i></td>
+            <td><i class="fa-solid fa-circle-check"></i></td>
+            <td><i class="fa-solid fa-circle-check"></i></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">Dishes</th>
+            <td><i class="fa-solid fa-circle-check"></i></td>
+            <td><i class="fa-solid fa-circle-check"></i></td>
+            <td><i class="fa-solid fa-circle-check"></i></td>
+          </tr>
+        </tbody>
+
+        <tbody>
+          <tr>
+            <th scope="row" class="text-start">3 stars Meals</th>
+            <td></td>
+            <td><i class="fa-solid fa-circle-check icon_table"></i></td>
+            <td><i class="fa-solid fa-circle-check"></i></td>
+          </tr>
+          <tr>
+            <th scope="row" class="text-start">4 & 5 Stars Meals</th>
+            <td></td>
+            <td></td>
+            <td><i class="fa-solid fa-circle-check"></i></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <!--End Pricing Tables-->
+    <!--End main body-->
+    <!-- FOOTER -->
+    <div class="container">
+      <footer
+        class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top"
+      >
+        <p class="col-md-4 mb-0 text-muted">© 2022 Company, Inc</p>
+
+        <a
+          href="/"
+          class="col-md-4 d-flex align-items-center justify-content-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none"
+        >
+          Angelic Food
+        </a>
+
+        <ul class="nav col-md-4 justify-content-end">
+          <li class="nav-item">
+            <a href="/index.html" class="nav-link px-2 text-muted">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Order</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">Work With Us</a>
+          </li>
+          <li class="nav-item">
+            <a href="#" class="nav-link px-2 text-muted">About Us</a>
+          </li>
+        </ul>
+      </footer>
+    </div>
+    <!--End Footer-->
+    <!--Scripts-->
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+      integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+      integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+      crossorigin="anonymous"
+    ></script>
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/a6d5759ddb.js" crossorigin="anonymous"></script>
+  </body>
+</html>
